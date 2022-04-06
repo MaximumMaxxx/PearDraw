@@ -170,8 +170,7 @@ def main():
         leftColorsAndPositions = data["leftColors"]
         rightColorsAndPositions = data["rightColors"]
         combinedColors = data["combinedColors"]
-        input("Please scroll right and press enter ")
-        isleft = False
+        isleft = True
     else:
         leftColorsAndPositions = getColorsAndPositions([], "left")
         rightColorsAndPositions = getColorsAndPositions([], "right")
